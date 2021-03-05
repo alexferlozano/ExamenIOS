@@ -14,6 +14,9 @@
 		58E8D6B725F13DC30041C104 /* AlexExamen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58E8D6B525F13DC20041C104 /* AlexExamen.xcdatamodeld */; };
 		58E8D6B925F13DC50041C104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E8D6B825F13DC50041C104 /* Assets.xcassets */; };
 		58E8D6BC25F13DC50041C104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E8D6BA25F13DC50041C104 /* LaunchScreen.storyboard */; };
+		58E8D6C625F1420F0041C104 /* aflmPartida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8D6C525F1420F0041C104 /* aflmPartida.swift */; };
+		58E8D6CA25F1425F0041C104 /* aflmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8D6C925F1425F0041C104 /* aflmApp.swift */; };
+		58E8D6CD25F143D60041C104 /* aflmGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8D6CC25F143D60041C104 /* aflmGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		58E8D6B825F13DC50041C104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E8D6BB25F13DC50041C104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E8D6BD25F13DC50041C104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E8D6C525F1420F0041C104 /* aflmPartida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aflmPartida.swift; sourceTree = "<group>"; };
+		58E8D6C925F1425F0041C104 /* aflmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aflmApp.swift; sourceTree = "<group>"; };
+		58E8D6CC25F143D60041C104 /* aflmGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aflmGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		58E8D6AB25F13DC20041C104 /* AlexExamen */ = {
 			isa = PBXGroup;
 			children = (
+				58E8D6CB25F143B60041C104 /* aflmControllers */,
+				58E8D6C425F13EDA0041C104 /* aflmClases */,
 				58E8D6AC25F13DC20041C104 /* AppDelegate.swift */,
 				58E8D6AE25F13DC20041C104 /* SceneDelegate.swift */,
 				58E8D6B025F13DC20041C104 /* ViewController.swift */,
@@ -68,6 +76,23 @@
 				58E8D6B525F13DC20041C104 /* AlexExamen.xcdatamodeld */,
 			);
 			path = AlexExamen;
+			sourceTree = "<group>";
+		};
+		58E8D6C425F13EDA0041C104 /* aflmClases */ = {
+			isa = PBXGroup;
+			children = (
+				58E8D6C525F1420F0041C104 /* aflmPartida.swift */,
+				58E8D6C925F1425F0041C104 /* aflmApp.swift */,
+			);
+			path = aflmClases;
+			sourceTree = "<group>";
+		};
+		58E8D6CB25F143B60041C104 /* aflmControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58E8D6CC25F143D60041C104 /* aflmGameViewController.swift */,
+			);
+			path = aflmControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +169,9 @@
 				58E8D6B125F13DC20041C104 /* ViewController.swift in Sources */,
 				58E8D6AD25F13DC20041C104 /* AppDelegate.swift in Sources */,
 				58E8D6AF25F13DC20041C104 /* SceneDelegate.swift in Sources */,
+				58E8D6CA25F1425F0041C104 /* aflmApp.swift in Sources */,
+				58E8D6CD25F143D60041C104 /* aflmGameViewController.swift in Sources */,
+				58E8D6C625F1420F0041C104 /* aflmPartida.swift in Sources */,
 				58E8D6B725F13DC30041C104 /* AlexExamen.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
